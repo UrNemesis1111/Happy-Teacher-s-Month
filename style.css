@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    min-height: 100vh;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    background: linear-gradient(
+        135deg,
+        #F9D2BA,
+        #5E3122,
+        #F7EAE0
+        
+    );
+}
+
+.container {
+    width: 500px;
+    height: 560px;
+
+    padding: 40px 25px;
+
+    border-radius: 40px;
+
+    background-color: #1D4533;
+
+}
+
+.container2 {
+    width: 500px;
+    height: auto;
+
+    padding: 40px 25px;
+
+    border-radius: 40px;
+
+    background-color: #1D4533;
+}
+
+.card hr {
+    border-top: 2px solid #3A6F43;
+}
+
+.card h2 {
+    color: #FDAAAA;
+    background-color: #0e251b;
+
+    padding: 10px;
+
+    border: 2px solid #3A6F43;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.card h3 {
+    color: #EE6983;
+
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.message p {
+    color: #fdaaaa;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.photo {
+    display: inline-block;
+
+    border-radius: 50%;
+}
+
+.photo img {
+    border-radius: 50%;
+    border-style: double;
+    border-color: #EE6983;
+    border-width: 5px;
+
+    display: inline-block;
+}
+
+div a {
+    text-decoration: none;
+    color: #FDAAAA;
+    font-weight: bold;
+
+    background-color: #0e251b;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #3A6F43;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+div a:hover {
+    background-color: #0e251b;
+    color: #FDAAAA;
+
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #fdaaaa;
+    transition: 0.3s;
+}
+
+.groupPhoto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: #faaaaa;
+    border-width: 5px;
+
+    animation: spin 5s linear infinite;
+    
+    display: inline-block;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
